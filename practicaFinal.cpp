@@ -128,7 +128,7 @@ void desencriptarEspecifico(){
 		i++;
 	}
 	i=0;
-	cout<<"\n===========================Texto desencriptado================================="<<endl;
+	cout<<"\n===========================Texto desencriptado==============================="<<endl;
 	cout<<frase<<endl;//imprimimos el texto desencriptado
 	cout<<"===========================Texto desencriptado================================="<<endl<<endl;
 }
@@ -143,7 +143,7 @@ void mostrar(){
 		cout<<"No se puede abrir el archivo";
 		exit(1);
 	}
-		cout<<"\n===========================Texto Encriptado================================="<<endl;
+		cout<<"\n===========================Texto Encriptado==============================="<<endl;
 		while(!archivo.eof()){//mientras el archivo no este vacío
 			getline(archivo,frase);
 			cout<<frase<<endl;//imprimimos las lineas del archivo

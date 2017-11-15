@@ -1,0 +1,3 @@
+este es un texto que sera encriptado
+este es otro texto encriptado
+mi nombre - luis
